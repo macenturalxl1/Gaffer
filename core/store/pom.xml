@@ -36,6 +36,11 @@
             <artifactId>operation</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>uk.gov.gchq.gaffer</groupId>
+            <artifactId>proxy-store</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
         <!--test dependencies-->
         <dependency>
             <groupId>uk.gov.gchq.gaffer</groupId>
