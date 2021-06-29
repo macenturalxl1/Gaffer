@@ -37,6 +37,6 @@ public class GafferHeaderFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(final HttpServletRequest request, final HttpServletResponse response, final FilterChain filterChain) throws ServletException, IOException {
         response.addHeader(GAFFER_MEDIA_TYPE_HEADER, GAFFER_MEDIA_TYPE);
-        filterChain.doFilter(request, response);
+//        filterChain.doFilter(request, response);
     }
 }
